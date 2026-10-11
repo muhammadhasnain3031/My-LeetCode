@@ -19,8 +19,7 @@ var isSubtree = function(root, subRoot) {
         if(isSameTree(root,subRoot)){
             return true;
         }
-        return isSubtree(root.left ,subRoot) || isSubtree(root.right, subRoot);
-
+return isSubtree(root.left,subRoot) || isSubtree(root.right, subRoot)
 
 
     function isSameTree(p,q){
